@@ -14,6 +14,7 @@ body {
 
 a {
     font-size: 20px;
+    color: rgb(255, 255, 255);
 }
 
 header {
@@ -23,7 +24,7 @@ header {
 }
 
 main {
-    margin: 10px;
+    padding: 10px;
 }
 
 #parent {
@@ -64,25 +65,26 @@ footer {
     text-align: center;
 }
 
-a {
-    color: rgb(255, 255, 255);
+
+a:valid {
+    color: rgb(193, 234, 251);
 }
-a:valid{
-    color: rgb(193, 234,251);
-}
+
 a:hover {
     color: rgb(245, 178, 168);
 }
 
 @media screen and (max-width: 768px) {
-    h2{
+    h2 {
         font-size: 30px;
-        
+
     }
-    p{
+
+    p {
         font-size: 25px;
     }
-   #parent{
-    display: block;
-   }
+
+    #parent {
+        display: block;
+    }
 }
